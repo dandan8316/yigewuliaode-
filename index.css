@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+a {
+    outline: none;
+    color: #21759b;
+}
+a:link {
+    color: red;
+    margin-left: 10px;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: black;
+    text-decoration: none;
+}
+.postTitle {
+    border-left: 3px solid #21759b;
+    margin-bottom: 10px;
+    font-size: 20px;
+    float: right;
+    width: 100%;
+    clear: both;
+}
+.postTitle a:link, .postTitle a:visited, .postTitle a:active {
+    color: #21759b;
+    transition: all 0.4s linear 0s;
+}
+.postTitle a:hover {
+    margin-left: 30px;
+    color: #0f3647;
+    text-decoration: none;
+}
+
